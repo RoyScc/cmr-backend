@@ -60,7 +60,7 @@ class ProfesionalViewSet(viewsets.ModelViewSet):
 class TurnoViewSet(viewsets.ModelViewSet):
     queryset = Turno.objects.all().order_by('-fecha', '-hora')
     
-    # filtros y búsquedas habilitadas
+    # filtros, ordenamientos y busquedas el cliente elige como vienen los datos
     filter_backends = [
         DjangoFilterBackend,
         filters.SearchFilter,
