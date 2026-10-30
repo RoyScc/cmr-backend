@@ -1,3 +1,4 @@
+from rest_framework.decorators import permission_classes
 from rest_framework import viewsets, filters
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -60,7 +61,7 @@ class ProfesionalViewSet(viewsets.ModelViewSet):
 class TurnoViewSet(viewsets.ModelViewSet):
     queryset = Turno.objects.all().order_by('-fecha', '-hora')
     
-    # filtros y búsquedas habilitadas
+    # filtros, ordenamientos y busquedas el cliente elige como vienen los datos
     filter_backends = [
         DjangoFilterBackend,
         filters.SearchFilter,
