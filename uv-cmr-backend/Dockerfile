@@ -8,7 +8,7 @@ ENV PYTHONUNBUFFERED=1
 # Directorio de trabajo en el contenedor
 WORKDIR /app
 
-# Instalar uv directamente (requisito de la EFI)
+# Instalar uv directamente 
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
 # Copiar el archivo de dependencias
