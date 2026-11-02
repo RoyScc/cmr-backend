@@ -86,6 +86,7 @@ class TurnoViewSet(viewsets.ModelViewSet):
     @action (detail=True, methods=['delete'])
     def borrado_logico(self, request, pk=None):
         """Borro un turno, cambio el estado a 'cancelado'."""
+        turno = self.get_object()
         if (turno.estado == 'cancelado'):
             return Response({"status": "Error: Turno ya cancelado"}, status=400)
 
