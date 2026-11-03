@@ -62,7 +62,7 @@ ReDoc: http://localhost:8000/api/schema/redoc/
 
 ## 🗄️ Diagrama de Base de Datos
 
-![ER](https://lucid.app/lucidchart/a53492ef-e115-4498-9329-c9702d555ad0/edit?viewport_loc=-4629%2C1199%2C3210%2C1737%2C0_0&invitationId=inv_a4947f1c-0ede-4131-b319-a7bf0b12fdf6)
+![ER] (https://lucid.app/lucidchart/a53492ef-e115-4498-9329-c9702d555ad0/edit?viewport_loc=-4629%2C1199%2C3210%2C1737%2C0_0&invitationId=inv_a4947f1c-0ede-4131-b319-a7bf0b12fdf6)
 
 ## 👨‍💻 Autor
 Roy Scheurer - GitHub
