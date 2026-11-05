@@ -4,7 +4,7 @@ from rest_framework.decorators import action
 from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.filters import OrderingFilter, SearchFilter
 
@@ -52,7 +52,8 @@ class DisponibilidadViewSet(viewsets.ModelViewSet):
 
 class ProfesionalViewSet(viewsets.ModelViewSet):
     queryset = Profesional.objects.all()
-    
+    permission_classes = [IsAuthenticatedOrReadOnly] 
+
     # consulto listcon (get all). datos anidados 
     def get_serializer_class(self):
         if self.action == 'list':
