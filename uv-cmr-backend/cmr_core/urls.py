@@ -4,7 +4,7 @@ from django.urls import path, include
 from django.views.generic import TemplateView
 from rest_framework.authtoken import views
 from drf_spectacular.views import (SpectacularAPIView, SpectacularRedocView, SpectacularSwaggerView)
-
+from api.views import CustomAuthToken
 # from rest_framework_simplejwt.views import (TokenObtainPairView, TokenRefreshView)
 
 
@@ -14,7 +14,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('api.urls')),
     
-    path('api/token/', views.obtain_auth_token, name='api_token_auth'),
+    # path('api/token/', views.obtain_auth_token, name='api_token_auth'),
+    path('api/token/', CustomAuthToken.as_view(), name='api_token_auth'),
     
     # path('api/token/', TokenObtainPairView.as_view(), name='api_token_obtain_pair'),
     # path('api/token/refresh/', TokenRefreshView.as_view(), name='api_token_refresh'),
