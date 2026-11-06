@@ -1,0 +1,9 @@
+Comandos uv-cmr-backend:
+- uv init uv-cmr-backend
+- git checkout feature/setup-entorno
+- cd uv-cmr-backend/
+- uv add django djangorestframework django-cors-headers django-filter - drf-spectacular
+
+- django-admin startproject cmr_core .
+- python manage.py startapp api
+- 
