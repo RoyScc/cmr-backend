@@ -140,6 +140,7 @@ MAILERS = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://cmr-nextjs-pdbdiq6w2-roys-team1.vercel.app",
 ]
 CORS_ALLOW_CREDENTIALS = True
 
