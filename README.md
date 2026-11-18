@@ -62,24 +62,24 @@ ReDoc: http://localhost:8000/api/schema/redoc/
 
 ## Capturas de pantalla 
 
-![Pantalla de bienvenida] (./docs/capturas/welcometemplate.png)
+![Pantalla de bienvenida](./docs/capturas/welcometemplate.png)
 
-![Panel de administración (con filtro y busqueda en Turnos)] (./docs/capturas/adminfilterordering.png)
+![Panel de administración (con filtro y busqueda en Turnos)](./docs/capturas/adminfilterordering.png)
 
-![Api] (./docs/capturas/api.png)
+![Api](./docs/capturas/api.png)
 
-![Api | Swagger] (./docs/capturas/apiconSwagger.png)
+![Api | Swagger](./docs/capturas/apiconSwagger.png)
 
-![Schemas] (./docs/capturas/apischema.png)
+![Schemas](./docs/capturas/apischema.png)
 
-![Pruebas en Postman(Insomnia)] (./docs/capturas/insomnia1.png)
+![Pruebas en Postman(Insomnia)](./docs/capturas/insomnia1.png)
 
-![Pruebas en Postman(Insomnia)] (./docs/capturas/insomnia2.png)
+![Pruebas en Postman(Insomnia)](./docs/capturas/insomnia2.png)
 
 
 ## 🗄️ Diagrama de Base de Datos
 
-![ER] (./docs/capturas/diagramaER.png)
+![ER](./docs/capturas/diagramaER.png)
 
 ## 👨‍💻 Autor
 Roy Scheurer - GitHub
